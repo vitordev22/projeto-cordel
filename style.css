@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -16,7 +17,7 @@
 
 header {
     background-color: var(--preto);
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 header > h1 {
@@ -33,14 +34,29 @@ header > p {
     text-align: center;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #fff;
+}
+
 main > p {
     background-color: var(--branco);
     font-family: var(--fontetext);
     padding-left: 30px;
-    padding-top: 10vh;
     font-size: 2em;
     line-height: 2em;
-    margin-bottom: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+    
     
 }
 
@@ -62,5 +78,21 @@ section > p {
 
 #imagem01 {
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#imagem02 {
+    background: url(imagens/background002.jpg) right center / cover fixed;
+}
+
+footer {
+    background-color: var(--preto);
+}
+
+footer > p {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
