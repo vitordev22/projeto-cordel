@@ -1,3 +1,65 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco: #fff;
+    --preto: #000;
+    --fontetitulo: "Passion One", Arial, sans-serif;
+    --fontetext: "Sriracha", Arial, sans-serif;
+}
+
+header {
+    background-color: var(--preto);
+    padding-bottom: 30px;
+}
+
+header > h1 {
+    color: var(--branco);
+    font-family: var(--fontetitulo);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5em;
+    font-variant: small-caps;
+}
+
+header > p {
+    color: var(--branco);
+    text-align: center;
+}
+
+main > p {
+    background-color: var(--branco);
+    font-family: var(--fontetext);
+    padding-left: 30px;
+    padding-top: 10vh;
+    font-size: 2em;
+    line-height: 2em;
+    margin-bottom: 10vh;
+    
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.imagem {
+    background-color: #00000086;
+    color: var(--branco);
+    font-family: var(--fontetext);
+    width: 20%;
+    
+    background-size: cover;
+    
+}
+
+#flor {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+
+}
