@@ -45,21 +45,22 @@ main > p {
 }
 
 section {
+    background-color: darkgray;
+    color: #fff;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
 }
-.imagem {
-    background-color: #00000086;
-    color: var(--branco);
+
+section > p {
+    background-color: #00000069;
+    display: inline-block;
     font-family: var(--fontetext);
-    width: 20%;
-    
-    background-size: cover;
-    
+    font-size: 2em;
+    padding: 5px;
 }
 
-#flor {
+#imagem01 {
     background-image: url(imagens/background001.jpg);
-    background-position: right center;
-
+    background-position: center center;
 }
